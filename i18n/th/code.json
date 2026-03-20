@@ -1,0 +1,66 @@
+{
+  "theme.docs.sidebar.categoryGeneratedIndex.title": {
+    "message": "{categoryName}",
+    "description": "The default title for generated category index pages"
+  },
+  "homepage.tagline": {
+    "message": "โปรแกรมแก้ไขและจัดพิมพ์ EPUB ระดับมืออาชีพ",
+    "description": "The tagline on the homepage"
+  },
+  "homepage.hero.button.getStarted": {
+    "message": "เริ่มต้นใช้งาน",
+    "description": "Get Started button on hero"
+  },
+  "homepage.hero.button.github": {
+    "message": "ดูบน GitHub",
+    "description": "View on GitHub button on hero"
+  },
+  "homepage.features.dualModeEditor.title": {
+    "message": "ตัวแก้ไขสองโหมด",
+    "description": "Feature title"
+  },
+  "homepage.features.dualModeEditor.description": {
+    "message": "แก้ไข HTML และ CSS พร้อมไฮไลท์ซินแท็กซ์ จัดรูปแบบอัตโนมัติ และคีย์ลัด สลับระหว่างโหมดโค้ด พรีวิว และแบ่งหน้าจอ",
+    "description": "Feature description"
+  },
+  "homepage.features.realtimePreview.title": {
+    "message": "พรีวิวแบบเรียลไทม์",
+    "description": "Feature title"
+  },
+  "homepage.features.realtimePreview.description": {
+    "message": "พรีวิวแบบจำลองอุปกรณ์พร้อมซิงค์การเลื่อนสองทิศทาง คลิกที่องค์ประกอบใดก็ได้ในพรีวิวเพื่อข้ามไปยังซอร์สในตัวแก้ไข",
+    "description": "Feature description"
+  },
+  "homepage.features.aiPowered.title": {
+    "message": "ขับเคลื่อนด้วย AI",
+    "description": "Feature title"
+  },
+  "homepage.features.aiPowered.description": {
+    "message": "เชื่อมต่อ Gemini AI สำหรับสร้างเนื้อหาบทและปรับปรุงข้อความที่มีอยู่ ให้คำสั่งแล้วปล่อยให้ AI จัดการการเขียน",
+    "description": "Feature description"
+  },
+  "homepage.features.smartExport.title": {
+    "message": "ส่งออกอัจฉริยะ",
+    "description": "Feature title"
+  },
+  "homepage.features.smartExport.description": {
+    "message": "ส่งออกเป็น EPUB 2.0 หรือ ZIP โปรเจกต์ รองรับการปรับแต่งข้อความไทยและเอเชียด้วยการแทรกอักขระความกว้างศูนย์อัตโนมัติ",
+    "description": "Feature description"
+  },
+  "homepage.features.fontMedia.title": {
+    "message": "ฟอนต์และสื่อ",
+    "description": "Feature title"
+  },
+  "homepage.features.fontMedia.description": {
+    "message": "อัปโหลดฟอนต์ที่กำหนดเอง (TTF, OTF, WOFF, WOFF2) และรูปภาพ ทรัพยากรทั้งหมดถูกฝังโดยตรงในไฟล์ EPUB",
+    "description": "Feature description"
+  },
+  "homepage.features.advancedTools.title": {
+    "message": "เครื่องมือขั้นสูง",
+    "description": "Feature title"
+  },
+  "homepage.features.advancedTools.description": {
+    "message": "ค้นหาและแทนที่ด้วย Regex แบ่งบทตามรูปแบบ จัดเรียงบทด้วยการลากและวาง และบันทึกรูปแบบ Regex",
+    "description": "Feature description"
+  }
+}

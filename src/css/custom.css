@@ -1,0 +1,275 @@
+/* ── Noto Sans Thai for Thai locale ── */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap');
+
+:lang(th) {
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+/* ── Light mode ── */
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-code-font-size: 95%;
+  --ifm-code-background: #f1f5f9;
+  --ifm-code-padding-horizontal: 0.4rem;
+  --ifm-code-padding-vertical: 0.2rem;
+  --ifm-code-border-radius: 0.25rem;
+  --ifm-global-radius: 0.5rem;
+  --docusaurus-highlighted-code-line-bg: rgba(37, 99, 235, 0.1);
+
+  /* Custom props for homepage / component CSS */
+  --ec-hero-bg-from: #f8fafc;
+  --ec-hero-bg-to: #e2e8f0;
+  --ec-hero-title: #0f172a;
+  --ec-hero-subtitle: #475569;
+  --ec-outline-border: #cbd5e1;
+  --ec-outline-text: #475569;
+  --ec-outline-hover-text: #0f172a;
+  --ec-feature-bg: #ffffff;
+  --ec-feature-border: #e2e8f0;
+  --ec-feature-border-hover: #cbd5e1;
+  --ec-feature-title: #0f172a;
+  --ec-feature-desc: #475569;
+  --ec-section-bg: #f8fafc;
+}
+
+/* ── Dark mode ── */
+[data-theme='dark'] {
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93bbfd;
+  --ifm-color-primary-lightest: #bfdbfe;
+  --ifm-background-color: #020617;
+  --ifm-background-surface-color: #0f172a;
+  --ifm-navbar-background-color: #0f172a;
+  --ifm-footer-background-color: #020617;
+  --ifm-font-color-base: #cbd5e1;
+  --ifm-heading-color: #e2e8f0;
+  --ifm-link-color: #60a5fa;
+  --ifm-link-hover-color: #93bbfd;
+  --ifm-code-background: #1e293b;
+  --ifm-menu-color: #94a3b8;
+  --ifm-menu-color-active: #3b82f6;
+  --ifm-menu-color-background-active: rgba(59, 130, 246, 0.1);
+  --ifm-toc-link-color: #94a3b8;
+  --ifm-hr-border-color: #1e293b;
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.15);
+
+  /* Custom props for homepage / component CSS */
+  --ec-hero-bg-from: #020617;
+  --ec-hero-bg-to: #0f172a;
+  --ec-hero-title: #e2e8f0;
+  --ec-hero-subtitle: #94a3b8;
+  --ec-outline-border: #334155;
+  --ec-outline-text: #94a3b8;
+  --ec-outline-hover-text: #e2e8f0;
+  --ec-feature-bg: #0f172a;
+  --ec-feature-border: #1e293b;
+  --ec-feature-border-hover: #334155;
+  --ec-feature-title: #e2e8f0;
+  --ec-feature-desc: #94a3b8;
+  --ec-section-bg: #020617;
+}
+
+/* ── Navbar ── */
+[data-theme='dark'] .navbar {
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #1e293b;
+}
+
+[data-theme='dark'] .navbar__title {
+  color: #e2e8f0;
+}
+
+[data-theme='dark'] .navbar__logo img {
+  filter: brightness(0) invert(1);
+}
+
+.navbar__title {
+  font-weight: 700;
+}
+
+[data-theme='dark'] .navbar__link {
+  color: #94a3b8;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--ifm-color-primary);
+}
+
+/* ── Sidebar ── */
+[data-theme='dark'] .menu {
+  background-color: #0f172a;
+}
+
+.menu__link {
+  border-radius: 0.375rem;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: var(--ifm-menu-color-background-active);
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .menu__list-item-collapsible:hover {
+  background-color: rgba(59, 130, 246, 0.05);
+}
+
+/* ── Sidebar border ── */
+[data-theme='dark'] .theme-doc-sidebar-container {
+  border-right: 1px solid #1e293b !important;
+}
+
+/* ── Footer ── */
+[data-theme='dark'] .footer {
+  border-top: 1px solid #1e293b;
+}
+
+[data-theme='dark'] .footer__title {
+  color: #e2e8f0;
+}
+
+[data-theme='dark'] .footer__link-item {
+  color: #94a3b8;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* ── Code blocks (dark only) ── */
+[data-theme='dark'] pre {
+  background-color: #1e293b !important;
+  border: 1px solid #334155;
+}
+
+[data-theme='dark'] code {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+}
+
+[data-theme='dark'] pre code {
+  border: none;
+}
+
+/* ── Table ── */
+table {
+  border-collapse: collapse;
+}
+
+[data-theme='dark'] table th {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+
+[data-theme='dark'] table td {
+  border-color: #1e293b;
+}
+
+[data-theme='dark'] table tr:nth-child(2n) {
+  background-color: rgba(15, 23, 42, 0.5);
+}
+
+/* ── Admonitions ── */
+[data-theme='dark'] .alert {
+  background-color: #0f172a;
+  border-left-width: 4px;
+  color: #cbd5e1;
+}
+
+/* ── Scrollbar (dark only) ── */
+[data-theme='dark'] ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* ── TOC ── */
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+}
+
+/* ── Breadcrumbs ── */
+[data-theme='dark'] .breadcrumbs__link {
+  color: #94a3b8;
+}
+
+[data-theme='dark'] .breadcrumbs__item--active .breadcrumbs__link {
+  color: #e2e8f0;
+}
+
+/* ── Pagination ── */
+[data-theme='dark'] .pagination-nav__link {
+  background-color: #0f172a;
+  border-color: #1e293b;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+/* ── Search ── */
+[data-theme='dark'] .DocSearch-Button {
+  background-color: #0f172a !important;
+  border: 1px solid #334155 !important;
+}
+
+/* ── Cards ── */
+[data-theme='dark'] .card {
+  background-color: #0f172a;
+  border: 1px solid #1e293b;
+}
+
+/* ── Markdown headings ── */
+[data-theme='dark'] .markdown h1,
+[data-theme='dark'] .markdown h2,
+[data-theme='dark'] .markdown h3,
+[data-theme='dark'] .markdown h4,
+[data-theme='dark'] .markdown h5,
+[data-theme='dark'] .markdown h6 {
+  color: #e2e8f0;
+}
+
+.markdown a {
+  color: var(--ifm-color-primary-light);
+}
+
+.markdown a:hover {
+  color: var(--ifm-color-primary-lighter);
+}
+
+[data-theme='dark'] .markdown blockquote {
+  border-left-color: #3b82f6;
+  background-color: rgba(15, 23, 42, 0.5);
+  color: #94a3b8;
+}
+
+/* ── Tabs ── */
+.tabs__item--active {
+  color: var(--ifm-color-primary);
+  border-bottom-color: var(--ifm-color-primary);
+}

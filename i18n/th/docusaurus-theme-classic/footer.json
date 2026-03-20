@@ -1,0 +1,30 @@
+{
+  "link.title.Documentation": {
+    "message": "เอกสาร",
+    "description": "The title of the footer links column with title=Documentation"
+  },
+  "link.title.Links": {
+    "message": "ลิงก์",
+    "description": "The title of the footer links column with title=Links"
+  },
+  "link.item.label.Getting Started": {
+    "message": "เริ่มต้นใช้งาน",
+    "description": "The label of footer link with label=Getting Started"
+  },
+  "link.item.label.Core Features": {
+    "message": "ฟีเจอร์หลัก",
+    "description": "The label of footer link with label=Core Features"
+  },
+  "link.item.label.Web App": {
+    "message": "เว็บแอป",
+    "description": "The label of footer link with label=Web App"
+  },
+  "link.item.label.Mirror": {
+    "message": "มิเรอร์",
+    "description": "The label of footer link with label=Mirror"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 EpubCraft สร้างด้วย Docusaurus",
+    "description": "The footer copyright"
+  }
+}
